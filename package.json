@@ -1,0 +1,19 @@
+{
+  "name": "tasks_list",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+}
